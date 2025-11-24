@@ -1,0 +1,54 @@
+body {
+  background-color: bisque;
+}
+.rectangle {
+  height: 3rem;
+  width: 6rem;
+  margin: 2rem auto;
+  border: 2px dotted black;
+  transform: rotate(0.5turn);
+}
+
+.rect1 {
+    background-color: green;
+  transition: 1s;
+}
+
+.rect1:hover {
+    transform: rotate(-90deg);
+    transition: 3s;
+}
+
+/* This one transitions between background-colors.  ease-in-out an algorithm describing the transition */
+.rect2 {
+    background-color: #ff0000;
+  transition: 1s ease-in-out;
+}
+.rect2:hover {
+      background-color: #0000ff;
+    transition: 1s ease-in-out;
+}
+
+/* This one moves it 50 px.  The transition to hover is 1s and moves 50px in x direction.  Transition back takes 4s. */
+.rect4 {
+/*   transition: 1s ease-in-out; */
+  background-color: yellow;
+  transition: 4s;
+}
+.rect4:hover {
+    transform: scale(100);
+    transition: 1s ease-in-out;
+}
+
+/* This combines transitions.  It changes the width and gives a border radius with ease-in-out algorithm.   The transition to hover is 1s and linear */
+.rect3 {
+/*   transition: 1s ease-in-out; */
+  background-color: orange;
+  transition: 1s linear;
+}
+.rect3:hover {
+    transform: translate(-50px,  0px);
+    width: 3rem;
+    border-radius: 30px;
+    transition: 1s ease-in-out;
+}

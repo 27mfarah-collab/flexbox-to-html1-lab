@@ -1,0 +1,161 @@
+body {
+    background-color:beige;
+}
+.container {
+  width: 56rem;
+  margin: 3rem auto;
+  
+  box-sizing: border-box;
+  box-shadow: 14px 16px 25px 16px rgba(0,0,0,0.93);
+-webkit-box-shadow: 14px 16px 25px 16px rgba(0,0,0,0.93);
+-moz-box-shadow: 14px 16px 25px 16px rgba(0,0,0,0.93);
+}
+
+header {
+  border-bottom: 1px dotted#bbbbbb;
+  width: 25rem;
+  margin-bottom: 4rem;
+  position: sticky;
+  top: -15px;
+  padding-top: 15px;
+	opacity: 1;
+	Background-color: white;
+}
+
+main, header{
+  padding: 2px 50px;
+}
+
+a{
+  display: inline-block;
+}
+a:link {
+  color:navy; 
+}
+a:visited {
+  color:mediumblue;
+}
+a:hover{
+  color: black;
+}
+
+nav{
+  background-color: goldenrod;
+  padding: 10px;
+  
+}
+
+nav a{
+  background-color: rgba(86, 86, 207, 0.2);
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+nav a:hover{
+  transform: scale(1.1);
+  background-color: rgba(86, 86, 207, 0.8);
+  box-shadow: 0.2rem 0.2rem 0.5rem 0.1rem rgba(0,0,0,0.5);
+  
+}
+
+
+section {
+  margin-bottom: 3rem;
+}
+
+footer{
+  background-color: goldenrod;
+  padding: 10px;
+}
+
+footer a{
+  background-color: rgba(86, 86, 207, 0.2);
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  
+}
+
+footer a:hover{
+  background-color: rgba(86, 86, 207, 0.8);
+}
+p.a {
+  font-family: "Times New Roman", Times, serif;
+}
+
+p.b {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p.a {
+  font-size: 15px;
+}
+
+p.b {
+  font-size: large;
+}
+
+p.c {
+  font-size: 150%;
+}
+
+p{
+    color:darkblue;
+    font-size:24px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 25px;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 25px;
+}
+
+h1 {
+  color:cornflowerblue;
+}
+h2 {
+  color:cornflowerblue;
+}
+h3 {
+  color:cornflowerblue;
+}
+
+hr {
+  border:0;
+  width:100%;
+  color:dodgerblue;
+  background-color:darkslateblue;
+  height:5px;
+}
+th {
+  border:0;
+  width:100%;
+  color:rgb(28, 18, 90);
+  background-color:rgb(118, 111, 165);
+  height:5px;
+}
+td {
+  border:0;
+  width:100%;
+  color:rgb(28, 18, 90);
+  background-color:rgb(118, 111, 165);
+  height:5px;
+}
+/*jonah help test the code and how comments work in css*/
